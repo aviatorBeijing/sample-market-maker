@@ -6,7 +6,7 @@
   - Reason: Lack of "name mangling" mechanism in Python, and mis-placed the same func/packages in various different locations on PYTHONPATH.
   - Solution:
   - 0) git clone <this.repo>
-  - 1) pip uninstall bitmex-market-maker bitmex bitmex-ws
+  - 1) pip uninstall bitmex-market-maker bitmex-ws
   - 2) find <dir>/lib/python3.6/site-packages -name "*bitmex*" | xargs \rm -rf
   - 3) pip install .
   - 4) pip install -r requirements.txt
