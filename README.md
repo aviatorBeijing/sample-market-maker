@@ -5,7 +5,7 @@
   - Issue: ERROR - _logging - error from callback <bound method BitMEXWebsocket.__on_message of <market_maker.ws.ws_thread.BitMEXWebsocket object at 0x10a4ee908>>: __on_message() takes 2 positional arguments but 3 were given
   - Reason: Lack of "name mangling" mechanism in Python, and mis-placed the same func/packages in various different locations on PYTHONPATH.
   - Solution:
-  - 0) git clone <this.repo.or.original.bitmex.repo>
+  - 0) git clone <this.repo>
   - 1) pip uninstall bitmex-market-maker bitmex bitmex-ws
   - 2) find <dir>/lib/python3.6/site-packages -name "*bitmex*" | xargs \rm -rf
   - 3) pip install .
