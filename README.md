@@ -1,4 +1,5 @@
 # BitMEX Market Maker
+```
 [Issue&Fix]
 * ISSUE#1
   - Issue: ERROR - _logging - error from callback <bound method BitMEXWebsocket.__on_message of <market_maker.ws.ws_thread.BitMEXWebsocket object at 0x10a4ee908>>: __on_message() takes 2 positional arguments but 3 were given
@@ -9,6 +10,7 @@
   - 2) find <dir>/lib/python3.6/site-packages -name "*bitmex*" | xargs \rm -rf
   - 3) pip install .
   - 4) pip install -r requirements.txt
+```
 
 This is a sample market making bot for use with [BitMEX](https://www.bitmex.com).
 
